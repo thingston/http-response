@@ -1,7 +1,7 @@
 {
     "name": "thingston/http-response",
-    "description": "Custom responses for PHP applications based on PSR-7.",
-    "keywords": ["php", "http", "psr7", "response"],
+    "description": "Custom HTTP responses and a response emitter for PHP applications based on PSR-7.",
+    "keywords": ["php", "http", "psr7", "response", "emitter"],
     "homepage": "https://github.com/thingston/http-response",
     "type": "library",
     "license": "MIT",
