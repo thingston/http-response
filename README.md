@@ -1,6 +1,6 @@
 # Thingston HTTP Response
 
-Custom responses for PHP applications based on PSR-7.
+Custom HTTP responses and a response emitter for PHP applications based on PSR-7.
 
 ## Requirements
 
