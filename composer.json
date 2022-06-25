@@ -1,7 +1,7 @@
 {
     "name": "thingston/http-response",
-    "description": "Custom responses for PHP applications based on PSR-7.",
-    "keywords": ["php", "http", "psr7", "response"],
+    "description": "Custom HTTP responses and a response emitter for PHP applications based on PSR-7.",
+    "keywords": ["php", "http", "psr7", "response", "emitter"],
     "homepage": "https://github.com/thingston/http-response",
     "type": "library",
     "license": "MIT",
@@ -28,7 +28,8 @@
         "phpstan/phpstan": "^1.5",
         "phpunit/phpunit": "^9.5",
         "squizlabs/php_codesniffer": "^3.6",
-        "symfony/var-dumper": "^6.0"
+        "symfony/var-dumper": "^6.0",
+        "thingston/coverage-check": "^1.0"
     },
     "config": {
         "optimize-autoloader": true,
@@ -68,7 +69,7 @@
         ],
         "coverage:check": [
             "@coverage:clover",
-            "php .github/check_coverage.php coverage.xml"
+            "phpcov check:project coverage.xml"
         ],
         "analyze": "phpstan",
         "cs": "phpcs",
